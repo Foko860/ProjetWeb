@@ -6,12 +6,16 @@ body {
 }
 header{
     background-color:#462F1C ;
+    height: 200px;
 }
 .navbar {
-    color: #462F1C;
     background-color: #462F1C; /* Couleur de fond du header */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #CFBD97;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
+
 .nav-link:hover {
     color: #F9F4E6; /* Effet au survol */
 }
@@ -22,6 +26,14 @@ header{
 
 .navbar-brand {
     color: #F7E79B; /* Couleur du logo */
+}
+
+.logo-left {
+    position: fixed;
+    left: 0;
+}
+.container {
+    position: relative;
 }
 
 .nav-link {
