@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    /*background: url('images/zeduc\ logo.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+}
+header{
+    background-color:#462F1C ;
+}
+.navbar {
+    color: #462F1C;
+    background-color: #462F1C; /* Couleur de fond du header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-link:hover {
+    color: #F9F4E6; /* Effet au survol */
+}
+
+.nav-item {
+    margin-left: 20px;
+  }
+
+.navbar-brand {
+    color: #F7E79B; /* Couleur du logo */
+}
+
+.nav-link {
+    /*color: #f5f5f5; /* Couleur des liens */
+    color: #CFBD97; /* Texte doré pour s'harmoniser avec le logo */
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #FFD700; /* Couleur pour le lien actif */
+    border-bottom: 2px solid #CFBD97;
+}
+.navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+
+.cart-icon {
+    color: #F7E79B; /* Couleur de l'icône du panier */
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+.btn-secondary {
+    background-color: #CFBD97; /* Couleur dorée */
+    color: #1E1E1E;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #D4C08E; /* Légère variation au survol */
+}
+
+.button {
+    margin-top: 40px; /* Ajout de marge pour espacer les boutons */
+}
+
+.btn-block {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #CFBD97;
+    color: #F9F4E6;
+    padding: 20px 0;
+}
+
+footer .d-flex {
+    align-items: center;
+}
+
+footer i {
+    color: #000000;
+    font-size: 18px;
+}
+
+footer span {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+footer .fa-phone-alt,
+footer .fa-map-marker-alt {
+    margin-right: 8px;
+}
+
+
+footer img {
+    max-height: 50px; /* Taille maximale pour le logo dans le footer */
+}
