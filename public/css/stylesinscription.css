@@ -1,0 +1,281 @@
+*{
+
+margin:0;
+padding: 0;
+}
+ 
+ 
+ /* General Styles */
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    background-color: #f5f5dc; /* Couleur de fond de la page */
+  }
+
+  /* Header Styles */
+  header {
+    background-color:#462F1C;
+    color: #CFBD97;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    height: 70px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+  }
+
+  nav li {
+    margin-left: 30px;
+  }
+
+  nav a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    color: #CFBD97;
+  }
+
+
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin-left: 0;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: #f5f5dc;
+    overflow: hidden;
+    height: 100vh;
+   
+    padding:0;
+   
+   
+}
+
+.circular-image {
+    width:100%;
+    height: 100%;
+    border-radius:  0 100% 100% 0; /* Semi-cercle */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    align-content: left;
+   
+    
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    background-color: #f5f5dc;
+    padding: 0 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    color: #aa852e;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cfbd97;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+small {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Golden button */
+    color: #000;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #cfbd97;
+    padding: 12px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-google:hover {
+    background-color: #f5f5dc;
+}
+
+.google-logo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+a {
+    color: #cfbd97;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-container p:last-child a {
+    color: #cfbd97; /* Changement de la couleur du lien "Sign In" */
+    text-decoration: underline;
+  }
+
+  .form-container p:last-child a:hover {
+    color: #daa520;
+    text-decoration: underline;
+  }
+  
+  
+
+.footer {
+    background-color: #f5f5dc; /* background pale yellow */
+    padding: 0;
+    color: #333;
+    margin-top:0;
+   
+   
+    
+}
+
+
+ /* Line above footer */
+ .footer-line {
+    width: 80%; /* Limit the width of the yellow line */
+    height: 2.5px;
+    background-color: #FFC300; /* Fine gold line */
+    margin: 0 auto; /* Center the line */
+    
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+.footer .social-icons i {
+    font-size: 20px;
+    color: #CFBD97;
+    margin-right: 10px;
+}
+.footer .social-icons i:hover {
+    color: #d4af37; /* slightly brighter gold */
+}
+.footer .contact-info {
+    color: #333;
+}
+.footer .contact-info i {
+    color: #CFBD97;
+    margin-right: 10px;
+}
+.footer .contact-info p {
+    margin-bottom: 4px;
+}
+
+
+/* Responsive Styles for smaller screens (e.g., tablets, phones) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .image-section {
+        width: 100%;
+        height: 40vh;
+        border-radius: 0; /* Plus de forme arrondie sur mobile */
+    }
+    
+    .circular-image-right {
+        border-radius: 0; /* Ajustement pour mobile */
+    }
+    
+    .form-section {
+        width: 100%;
+        padding: 20px; /* Plus de padding pour mobile */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .form-section {
+        padding: 15px; /* Réduction du padding sur les très petits écrans */
+    }
+    
+    .form-section input, .form-section button {
+        font-size: 14px; /* Réduire la taille des polices pour petits écrans */
+    }
+}
