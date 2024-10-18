@@ -1,0 +1,159 @@
+/*Style css du header*/
+.navigation_pageUser
+{
+    display: flex;
+padding-left: 15px;
+padding-right: 15px;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+border-radius: 20px;
+}
+.navdiv{
+    align-items: center;
+justify-content: space-between;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: balck;
+    padding:108px;
+    font-size: 16px;
+    margin-left: 30;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+section{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+header{
+ width: 100%;
+display: flex;
+background-color: #3B2615;
+/* background: linear-gradient(to rigth, #3B2615, #EEEDDD); */
+}/*Style css du header*/
+
+
+/*Style css du main*/
+
+.Section_photo{
+    background-image:url(Asset/Rectangle5.png);
+    height: auto;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom:60px;
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    background-size: cover; /* Assure que l'image couvre tout l'arrière-plan */
+    background-position: center; /* Centre l'image dans l'élément */
+}
+.Section_photo p {
+text-align: center;
+font-family: "Timmana", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:48px;
+}
+body{
+background-color: #EEEDDD;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;font-family: Arial, Helvetica, sans-serif   ;
+    text-decoration: none; 
+}
+/*Style css du main*/
+
+/*style css du footer*/
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 10px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+/*style css du footer*/
+
