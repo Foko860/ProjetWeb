@@ -99,12 +99,47 @@
 
                     <div class="category-filter">
                         <h4>Catégorie</h4>
-                        <ul>
-                            <li><input type="checkbox"> Plats</li>
-                            <li><input type="checkbox"> Compléments</li>
-                            <li><input type="checkbox"> Boissons</li>
-                            <li><input type="checkbox"> Suppléments</li>
-                        </ul>
+        
+
+        <!-- Liste déroulante pour Plats -->
+        <label for="plats-dropdown">Plats</label>
+        <select name="plats" id="plats-dropdown">
+            <option value="">-- Plats --</option>
+            <option value="cassoulet">Cassoulet</option>
+            <option value="ndole">Ndolè</option>
+            <option value="poulet_dg">Poulet DG</option>
+            <!-- Ajoute d'autres options ici -->
+        </select>
+
+        <!-- Liste déroulante pour Compléments -->
+        <label for="complements-dropdown">Compléments</label>
+        <select name="complements" id="complements-dropdown">
+            <option value="">--Compléments --</option>
+            <option value="riz">Riz</option>
+            <option value="frites">Frites</option>
+            <option value="pomme_puree">Purée de pommes</option>
+            <!-- Ajoute d'autres options ici -->
+        </select>
+
+        <!-- Liste déroulante pour Boissons -->
+        <label for="boissons-dropdown">Boissons</label>
+        <select name="boissons" id="boissons-dropdown">
+            <option value="">-- Boisson --</option>
+            <option value="jus">Jus naturel</option>
+            <option value="soda">Soda</option>
+            <option value="eau">Eau</option>
+            <!-- Ajoute d'autres options ici -->
+        </select>
+
+        <!-- Liste déroulante pour Suppléments -->
+        <label for="supplements-dropdown">Suppléments</label>
+        <select name="supplements" id="supplements-dropdown">
+            <option value="">-- Suppléments --</option>
+            <option value="sauce">Sauce supplémentaire</option>
+            <option value="pain">Pain</option>
+            <option value="fromage">Fromage</option>
+            <!-- Ajoute d'autres options ici -->
+        </select>
                     </div>
 
                     <div class="price-filter">
@@ -114,42 +149,27 @@
                         <p>From 500XAF TO 5000XAF <br> Filter</p>
                     </div>
                  </aside>
-            </div>
-    </section>
 
-    <!-- pied de page -->
-     <!-- <footer>
-        <div class="footer-content">
-            <img src="assets/icones/logo.svg" alt="">
-            <div class="address">
-                <p>Citée la terrasse YANSOKI, DOUALA</p>
-                <div class="contact">
-                <p>(+237) 652 69 02 10 </p>
-                <p>Tel: (+237) 699 84 45 54</p>
-            </div>
-            </div>
-
-            <div class="social-meadia">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-
+    <Footer>    
+        <div class="footerContainer">
+          <div class="socialIcons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-google-plus"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <div class="footerNav">
+              <ul><li><a href="">Home</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+              </ul>
             </div>
         </div>
-        
-     </footer> -->
-
-     <footer>
-        <div class="footer1">
-            <img src="assets/icones/logo.svg" alt="ZEDUC-SP@CE Logo">
-            <p>© 2024 ZEDUC-SP@CE. Tous droits réservés.</p>
+      <div class="footerBottom">
+          <p>Copyright &copy;2023; Designed by <span class="designer">Group6</span></p>
         </div>
-        <div class="footer2">
-            <p><i class='bx bxs-map'></i> Yansoki, Cité la Térasse</p>
-            <p><i class="bx bxs-phone"></i> +237 699 84 45 54</p>
-            <p><i class="bx bxs-phone"></i> +237 693 14 37 82</p>
-        </div>
-    </footer>
+      </Footer>
     
     
 </body>
