@@ -290,6 +290,10 @@ label {
     opacity: 0.9;
 }
 
+.cart{
+    cursor : pointer;
+}
+
 
 .cart-container {
     display: none; /* Masquer le panier par défaut */
@@ -345,6 +349,13 @@ label {
     border: #111 solid 5px;
 }
 
+.add-to-cart-btn{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ada598;
+    border: #ccc solid 1px;
+    cursor: pointer;
+}
 
 
 
