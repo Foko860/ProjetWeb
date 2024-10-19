@@ -23,21 +23,21 @@ let selectedProduct = null; // Variable pour stocker le produit sélectionné
 function filterBySearch() {
     const searchText = searchInput.value.toLowerCase();
 
-    // productCards.forEach(card => {
-    //     const productName = card.querySelector('h3').textContent.toLowerCase();
-    //     if (productName.includes(searchText)) {
-    //         card.style.display = 'block';
-    //     } else {
-    //         card.style.display = 'none';
-    //     }
-    // });
+    productCards.forEach(card => {
+        const productName = card.querySelector('h3').textContent.toLowerCase();
+        if (productName.includes(searchText)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
     // Ajouter un événement de clic sur chaque carte produit et son image
-productCards.forEach(card => {
-    const image = card.querySelector('img'); // Sélectionner l'image dans la carte
-    const clickableArea = card; // Ou `image` si tu veux que seule l'image soit cliquable
+// productCards.forEach(card => {
+//     const image = card.querySelector('img'); // Sélectionner l'image dans la carte
+//     const clickableArea = card; // Ou `image` si tu veux que seule l'image soit cliquable
     
-    clickableArea.addEventListener('click', () => openPopup(card));
-});
+//     clickableArea.addEventListener('click', () => openPopup(card));
+// });
 
 }
 
