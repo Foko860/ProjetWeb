@@ -294,7 +294,6 @@ label {
     cursor : pointer;
 }
 
-
 .cart-container {
     display: none; /* Masquer le panier par défaut */
     position: fixed;
@@ -356,8 +355,7 @@ label {
     border: #ccc solid 1px;
     cursor: pointer;
 }
-
-
-
-
+.add-to-cart-btn:hover{
+    background-color: #ff9800;
+}
 
