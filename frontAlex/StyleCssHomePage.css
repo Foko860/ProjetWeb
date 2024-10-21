@@ -9,11 +9,6 @@ width: 100%;
 justify-content: space-between;
 border-radius: 20px;
 }
-.navdiv{
-    align-items: center;
-justify-content: space-between;
-
-}
 li{
     list-style: none;
     display: inline-block;
@@ -61,16 +56,46 @@ font-family: "Timmana", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size:48px;
+
 }
-body{
-background-color: #EEEDDD;
-}
+ 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;font-family: Arial, Helvetica, sans-serif   ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif   ;
     text-decoration: none; 
 }
+
+.card{
+    border-radius: 20p;
+}
+
+
+/*css des paragraphes*/
+.divertissement
+ {
+font-size: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Timmana", sans-serif;
+margin-top: 77px;
+margin-bottom: 77px;
+}
+.Abonnement
+ {
+font-size: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Timmana", sans-serif;
+margin-top: 77px;
+margin-bottom: 77px;
+}
+/*css des paragraphes*/
+
+
 /*Style css du main*/
 
 /*style css du footer*/
@@ -156,4 +181,22 @@ footer{
     }
 }
 /*style css du footer*/
-
+body{
+    background: linear-gradient(#88887e 27%, #EEEDDD 79%); 
+}
+/*Css du tableau des abonnements*/
+.sectionCentrer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-left: 30%;
+margin-right: 30%;
+}
+.table{
+    background: linear-gradient(#88887e 27%, #EEEDDD 79%);
+}
+.navdiv{
+    align-items: center;
+justify-content: space-between;
+}/*Css du tableau des abonnement*/
