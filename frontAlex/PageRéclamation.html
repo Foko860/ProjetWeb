@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réclamations des Commandes</title>
+<link rel="stylesheet" href="StyleCssPageRecla.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation_pageUser">
+        <div class="navdiv">
+<div class="logo"> <a href="#"> <img src="./Asset/Rectangle 4.png" alt="logo"> </a></div>
+        </div>
+           <ul>
+            <li>
+                <a href="#"  class="lien_entete"> Acceuil </a>
+            </li>
+            <li>
+                <a href="#" class="lien_entete">CONNEXION</a>
+            </li>
+            <li>
+                <a href="#" class="lien_entete"> MENU </a>
+            </li>
+            <li>
+                <a href="#" class="lien_entete"> PARAINAGE </a>
+            </li>
+            <li>
+                <img src="./Asset/Vector.svg" alt="panier">
+            </li>
+        </ul>
+
+        </nav>
+    </div>
+    </header>
+   <main>
+    <h2>Tableau des Réclamations</h2>
+
+    <table id="reclamationsTable">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Noms</th>
+                <th>Réclamation</th>
+                <th>Statut</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Les lignes de réclamation seront ajoutées ici -->
+        </tbody>
+    </table>
+
+    <br>
+
+    <form id="addReclamationForm">
+        <h3>Ajouter une Réclamation</h3>
+        <label for="orderId">Order ID:</label>
+        <input type="text" id="orderId" required><br><br>
+
+        <label for="name">Noms:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="reclamation">Réclamation:</label>
+        <input type="text" id="reclamation" required><br><br>
+
+        <label for="statut">Statut:</label>
+        <select id="statut">
+            <option value="en cour">En cours</option>
+            <option value="résolu">Résolu</option>
+            <option value="rejeté">Rejeté</option>
+        </select><br><br>
+
+        <button type="button" onclick="addReclamation()">Ajouter</button>
+    </form>
+   </main>
+    <Footer>    
+        <div class="footerContainer">
+          <div class="socialIcons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-google-plus"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerNav">
+              <ul><li><a href="">Home</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+              </ul>
+          </div>
+          
+      </div>
+      <div class="footerBottom">
+          <p>Copyright &copy;2023; Designed by <span class="designer">Group6</span></p>
+      </div>
+      </Footer>
+<script src="ScriptPageReclamation.js">  </script>
+
+</body>
+</html>
