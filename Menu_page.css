@@ -34,6 +34,12 @@ nav .nav-links{
     margin: 0 75px;
 }
 
+.nav-links li a:hover{
+    background-color: #ff9800;
+    border-radius: 5px;
+
+}
+
 nav .nav-links li a{
     color: black;
     text-decoration: none;
@@ -358,4 +364,6 @@ label {
 .add-to-cart-btn:hover{
     background-color: #ff9800;
 }
+
+
 
