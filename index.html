@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points de fidélité</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Conteneur centralisé -->
+    <div class="container">
+
+        <!-- Navigation principale -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#" class="nav-btn">HOME</a></li>
+                <li><a href="#" class="nav-btn">CONNEXION</a></li>
+                <li><a href="#" class="nav-btn">MENU</a></li>
+                <li><a href="#" class="nav-btn">PARRAINAGE</a></li>
+            </ul>
+        </nav>
+
+        <!-- Section de Parrainage -->
+        <section class="parrainage">
+            <h1>Bienvenue à la page de points de fidélité</h1>
+            <p class="description">
+                👉🏼🍕💰💯 Plus vous commandez 😋, plus vous gagnez ! <br>Rejoignez notre programme de fidélité et accumulez des points <br>pour débloquer des récompenses savoureuses 🎁.
+            </p>
+            <ul class="conditions">
+                <li>● 1000F dépensé = 1 point</li>
+                <li>● 15 points = 1000F de réduction</li>
+            </ul>
+            <div class="fidelite-buttons">
+                <a href="#" class="btn" id="voir-points">Voir mes points</a>
+                <a href="#" class="btn" id="echanger-points">Échanger mes points</a>
+            </div>
+            <!-- Conteneur pour afficher les résultats des points -->
+            <div id="result" class="result"></div>
+
+
+        <!-- Pied de page -->
+        <footer>
+            <p>© 2024 ZEDUC-SP@CE. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- Fin du conteneur -->
+
+    <!-- JavaScript pour gérer les événements -->
+    <script>
+        // Fonction pour afficher les points
+        document.getElementById('voir-points').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('result').innerHTML = "<p>Vous avez actuellement <strong>45 points</strong> !</p>";
+        });
+
+        // Fonction pour échanger les points
+        document.getElementById('echanger-points').addEventListener('click', function(e) {
+            e.preventDefault();
+            const points = 45; // Vous pouvez changer cette valeur pour les tests
+            if (points >= 15) {
+                document.getElementById('result').innerHTML = "<p>Vous avez échangé <strong>15 points</strong> contre une réduction de <strong>1000F</strong> !</p>";
+            } else {
+                document.getElementById('result').innerHTML = "<p>Vous n'avez pas assez de points pour échanger. Il vous faut au moins <strong>15 points</strong>.</p>";
+            }
+        });
+    </script>
+
+</body>
+</html>
