@@ -1,15 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+}
+button {
+    padding: 5px 10px;
+    margin: 2px;
+}
+/*Style css du header*/
 .navigation_pageUser
 {
     display: flex;
 padding-left: 15px;
 padding-right: 15px;
 align-items: center;
+width: 100%;
 justify-content: space-between;
+border-radius: 20px;
 }
 .navdiv{
-
     align-items: center;
 justify-content: space-between;
+
 }
 li{
     list-style: none;
@@ -18,55 +43,26 @@ li{
 li a{
     color: balck;
     padding:108px;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 30;
     text-decoration: none;
     color: white;
+    width: 100%;
+}
+section{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 header{
-    width: 100%;
+ width: 100%;
 display: flex;
 background-color: #3B2615;
-}
-.Section_photo{
-    background-image:url(./Asset/Rectangle\ 5.png);
-    height: auto;
-    height: 750px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:60px;
-}
-.Section_photo p {
-text-align: center;
-font-family: "Timmana", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:48px;
-}
-body{
-background-color: #EEEDDD;
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;font-family: Arial, Helvetica, sans-serif   ;
-    text-decoration: none; 
-}
-/* * {
-    margin: 0;
-}
-  nav a {
-    margin-left: 300px;
-    height: 15px;
-    padding: auto;
-  }
-  a{
-    color: floralwhite;
-    text-decoration: none;
-    margin: auto;
-} */ 
+/* background: linear-gradient(to rigth, #3B2615, #EEEDDD); */
+}/*Style css du header*/
+
+
+
+/*style css du footer*/
 footer{
     background-color: #111;
 }
@@ -148,3 +144,4 @@ footer{
         margin: 4px;
     }
 }
+/*style css du footer*/
