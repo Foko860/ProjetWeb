@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    max-width: 100%; /* Rend le logo responsive */
+    width: 80;
+    height: auto;    /* Maintient le ratio d'aspect */
+    display: block;  /* Aligne le logo comme un bloc */
+    margin: 0 auto 20px; /* Centre le logo et ajoute de l'espace en bas */
+}
+
+/* Conteneur central */
+.container {
+    max-width: 600px;  /* Limite la largeur à 600px */
+    margin: 0 auto;    /* Centre le conteneur horizontalement */
+    background: hwb(43 23% 11% / 0.775); /* Couleur de fond avec transparence */
+    padding: 20px;     /* Ajoute des marges internes */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte */
+}
+
+/* Navigation */
+.navbar {
+    background-color: #624227;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-btn {
+    color: #470909;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #ede7b6;
+    border-radius: 25px;
+}
+
+.nav-btn:hover {
+    background-color: #b5a444;
+    cursor: pointer;
+}
+
+/* Styles de la forme d'employés */
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.employee-form label {
+    margin-bottom: 3px; /* Réduit l'espace en bas des étiquettes */
+    font-size: 14px; 
+}
+
+.employee-form input {
+    margin-bottom: 10px; /* Réduit l'espace entre les champs */
+    padding: 8px; /* Réduit le padding à l'intérieur des champs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 11px; 
+}
+
+/* Réduction de la taille des boutons */
+.employee-form .btn {
+    padding: 5px 10px; 
+    font-size: 12px; 
+    margin: 5px auto; 
+}
+
+/* Styles spécifiques pour le bouton de connexion */
+.employee-form .login {
+    background-color: hsl(220, 7%, 92%); /* Couleur de fond pour le bouton de connexion */
+    color: black; /* Couleur du texte */
+}
+
+.employee-form .login:hover {
+    background-color: hsl(213, 15%, 86%); /* Couleur au survol */
+}
+
+/* Autres boutons */
+.employee-form .edit,
+.employee-form .delete {
+    background-color: hsl(211, 17%, 92%);
+    color: rgb(48, 45, 45);
+}
+
+.employee-form .edit:hover {
+    background-color: hsl(213, 12%, 83%);
+}
+
+.employee-form .delete {
+    background-color: hwb(0 93% 6% / 0.963);
+    color: rgb(47, 43, 43);
+}
+
+.employee-form .delete:hover {
+    background-color: #e7dddebc;
+}
+
+.employee-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-list th, .employee-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.employee-list th {
+    background-color: #f8f9fa;
+}
+
+/* Styles de résultat et footer  */
+.result {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #4d3927;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #604834;
+    text-align: center;
+}
+/*Style css du header*/
+.navigation_pageUser
+{
+    display: flex;
+padding-left: 15px;
+padding-right: 15px;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+border-radius: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: balck;
+    padding:108px;
+    font-size: 16px;
+    margin-left: 30;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+section{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+header{
+ width: 100%;
+display: flex;
+background-color: #3B2615;
+/* background: linear-gradient(to rigth, #3B2615, #EEEDDD); */
+}/*Style css du header*/
