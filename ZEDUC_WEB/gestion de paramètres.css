@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(237, 235, 233, 0.863); /* Correction de la couleur de fond */
+    color: black;
+}
+
+.logo {
+    max-width: 100%; /* Rend le logo responsive */
+    width: 80px; /* Corrigez la valeur de la largeur */
+    height: auto; /* Maintient le ratio d'aspect */
+    display: block; /* Aligne le logo comme un bloc */
+    margin: 0 auto 20px; /* Centre le logo et ajoute de l'espace en bas */
+}
+
+header {
+    width: 100%;
+display: flex;
+background-color: #3B2615;
+/* background: linear-gradient(to rigth, #3B2615, #EEEDDD); */
+}/*Style css du header*/
+
+h1 {
+    font-size: 2em; /* Augmente la taille du titre */
+    margin-bottom: 10px;
+    text-align: center; /* Centre le titre */
+}
+
+main {
+    margin: 15px auto; /* Centre le main */
+    padding: 15px;
+    background-color: hsla(26, 70%, 10%, 0.937);
+    box-shadow: 0px 0px 10px #926e0cef;
+    border-radius: 8px;
+    max-width: 500px; /* Limite la largeur maximale de la section principale */
+}
+
+/* Centrer la section de configuration */
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    justify-content: center; /* Centre verticalement */
+    padding: 10px; /* Ajoutez un espacement intérieur */
+    width: 100%; /* Prend toute la largeur */
+    max-width: 400px; /* Limite la largeur maximale */
+    margin: 0 auto; /* Centre la section */
+}
+
+.settings h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0%);
+    text-align: center; /* Centre le titre */
+}
+
+.form-settings {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Prend toute la largeur disponible */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px; /* Uniformiser le padding */
+    border: 1px solid #ccc; /* Uniformiser la bordure */
+    border-radius: 4px; /* Uniformiser le rayon des coins */
+}
+
+textarea {
+    resize: vertical; /* Permet le redimensionnement vertical */
+    height: 60px; /* Hauteur par défaut pour textarea */
+}
+
+.form-actions {
+    text-align: right; /* Aligne le bouton à droite */
+}
+
+.btn-save {
+    background-color: rgba(154, 87, 42, 0.56); /* Couleur de fond du bouton */
+    color: blanchedalmond;
+    padding: 10px 20px; /* Uniformiser le padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Style css du header*/
+.navigation_pageUser
+{
+    display: flex;
+padding-left: 15px;
+padding-right: 15px;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+border-radius: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: balck;
+    padding:108px;
+    font-size: 16px;
+    margin-left: 30;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+section{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
